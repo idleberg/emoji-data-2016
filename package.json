@@ -1,6 +1,6 @@
 {
   "name":        "emoji-data-2016",
-  "version":     "0.2.1",
+  "version":     "0.2.2",
   "description": "Emoji encoding swiss army knife for NodeJS",
   "keywords": [
     "emoji",
@@ -11,7 +11,7 @@
   "author":   "Matteo Menapace <m@tteo.me> (http://github.com/matteomenapace)",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/mroth/emoji-data-js.git"
+    "url":  "https://github.com/matteomenapace/emoji-data-2016.git"
   },
   "main": "./lib/emoji_data.js",
   "scripts": {

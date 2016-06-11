@@ -1,4 +1,4 @@
-# emoji-data-js
+# emoji-data-2016
 
 NodeJS library providing low level operations for dealing with Emoji
 glyphs in the Unicode standard. :cool:
@@ -11,6 +11,7 @@ realize the nightmare of [doublebyte encoding][doublebyte] or
 [variants][variant], then this library may be your new best friend.
 :raised_hands:
 
+<!-- 
 EmojiData.js is written by the same author as the Ruby [emoji_data.rb][rb] gem,
 which is used in production by [Emojitracker.com][emojitracker] to parse well
 over 100M+ emoji glyphs daily. This version was written to provide all the same
@@ -23,15 +24,16 @@ environment. :dizzy:
 [variant]: http://www.unicode.org/L2/L2011/11438-emoji-var.pdf
 [rb]: https://github.com/mroth/emoji_data.rb
 [emojitracker]: http://www.emojitracker.com
+ -->
 
 ## Installation
 
-    npm install emoji-data
+`npm install emoji-data-2016 --save`
 
 ## Usage Examples
 
 ```js
-> var EmojiData = require('emoji-data');
+> var EmojiData = require('emoji-data-2016');
 
 > EmojiData.from_unified('2665');
 { name: 'BLACK HEART SUIT',
@@ -73,9 +75,6 @@ Found some hearts!
 Found some cloud!
 ```
 
-## API Documentation
-
-http://coffeedoc.info/github/mroth/emoji-data-js/master/
 
 ## Contributing
 
