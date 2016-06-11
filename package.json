@@ -1,6 +1,6 @@
 {
   "name":        "emoji-data-2016",
-  "version":     "0.2.2",
+  "version":     "0.2.4",
   "description": "Emoji encoding swiss army knife for NodeJS",
   "keywords": [
     "emoji",

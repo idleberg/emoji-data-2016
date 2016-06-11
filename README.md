@@ -67,14 +67,15 @@ environment. :dizzy:
   [ '1F334', '🌴', 'PALM TREE' ],
   [ '1F384', '🎄', 'CHRISTMAS TREE' ],
   [ '1F38B', '🎋', 'TANABATA TREE' ] ]
+```
 
+<!-- 
 > EmojiData.scan("I ♥ when marketers talk about the ☁. #blessed").forEach(
     function(ec) { console.log("Found some " + ec.short_name + "!"); }
   );
 Found some hearts!
 Found some cloud!
-```
-
+-->
 
 ## Contributing
 

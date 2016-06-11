@@ -128,7 +128,8 @@ class EmojiData
   # @return [EmojiChar]
   @from_unified: (uid) ->
     EMOJICHAR_UNIFIED_MAP[uid.toUpperCase()]
-
+  
+  ###
   # The RegExp matcher we use to do .scan() efficiently.
   # needs to be defined after self.chars so not at top of file for now...
   FBS_REGEXP = new RegExp(
@@ -155,7 +156,7 @@ class EmojiData
 
     # map matched chars to EmojiChar objects
     (@from_unified( @char_to_unified(id) ) for id in matches)
-
+  ###  
 
 module.exports = EmojiData
 module.exports.EmojiChar = EmojiChar
