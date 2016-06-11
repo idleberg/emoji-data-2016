@@ -1,14 +1,14 @@
 {
-  "name":        "emoji-data",
-  "version":     "0.2.0",
+  "name":        "emoji-data-2016",
+  "version":     "0.2.1",
   "description": "Emoji encoding swiss army knife for NodeJS",
   "keywords": [
     "emoji",
     "unicode"
   ],
-  "homepage": "https://github.com/mroth/emoji-data-js",
-  "bugs":     "https://github.com/mroth/emoji-data-js/issues",
-  "author":   "Matthew Rothenberg <mroth@mroth.info> (http://github.com/mroth)",
+  "homepage": "https://github.com/matteomenapace/emoji-data-2016",
+  "bugs":     "https://github.com/matteomenapace/emoji-data-2016/issues",
+  "author":   "Matteo Menapace <m@tteo.me> (http://github.com/matteomenapace)",
   "repository": {
     "type": "git",
     "url":  "https://github.com/mroth/emoji-data-js.git"
